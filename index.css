@@ -30,6 +30,10 @@ body {
   font-size: var(--font-size);
 }
 
+.companyName {
+  color: var(--aqua);
+}
+
 h1,
 h2,
 h3 {
@@ -136,6 +140,7 @@ nav [class*="fa-"]:hover {
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
+  height: 560px;
 }
 
 #intro p {
@@ -152,11 +157,6 @@ nav [class*="fa-"]:hover {
   font-size: 4rem;
   color: var(--aqua);
   display: block;
-}
-
-#intro h2 {
-  font-size: 4rem;
-  font-weight: normal;
 }
 
 /* Project style */
