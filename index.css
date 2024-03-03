@@ -31,6 +31,12 @@ body {
 }
 
 .companyName {
+  text-decoration: none;
+  color: var(--aqua);
+}
+
+.linkStyle {
+  text-decoration: none;
   color: var(--aqua);
 }
 
